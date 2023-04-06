@@ -1,0 +1,10 @@
+title: Go Project
+plan:
+- title: Welcome
+  statement: markdowns/welcome.md
+projects:
+  go:
+    root: /project
+    runner:
+      name: techio/golang-godep-runner
+      version: 1.1.0-go-1.8
